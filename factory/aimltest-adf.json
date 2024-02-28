@@ -1,5 +1,10 @@
 {
 	"name": "aimltest-adf",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false"
+		}
+	},
 	"location": "northcentralus",
 	"identity": {
 		"type": "SystemAssigned",
