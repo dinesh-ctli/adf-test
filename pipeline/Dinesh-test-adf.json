@@ -8,6 +8,22 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			},
+			{
+				"name": "Wait1_copy1",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Wait1",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
 					"waitTimeInSeconds": 5
 				}
 			}
