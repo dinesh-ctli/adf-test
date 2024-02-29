@@ -1,0 +1,17 @@
+{
+	"name": "Richard-test123",
+	"properties": {
+		"activities": [
+			{
+				"name": "richard-test-pipeline2",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": []
+	}
+}
