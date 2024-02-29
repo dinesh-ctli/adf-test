@@ -1,0 +1,14 @@
+{
+	"name": "aimltest-adf",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false"
+		}
+	},
+	"location": "northcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7eca973d-e54c-45e7-89bd-5ff4281639f6",
+		"tenantId": "72b17115-9915-42c0-9f1b-4f98e5a4bcd2"
+	}
+}
