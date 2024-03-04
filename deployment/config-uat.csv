@@ -1,2 +1,2 @@
 type,name,path,value
-linkedService,AzureDataLakeStorage_linked_service,typeProperties.url,"https://dlsaimlprod.dfs.core.windows.net/"
+linkedService,AzureDataLakeStorage_linked_service,typeProperties.url,"https://dlsaimltest.dfs.core.windows.net/"
