@@ -1,5 +1,2 @@
 type,name,path,value
-linkedService,LS_AzureKeyVault,typeProperties.baseUrl,"https://kv-test-uat.vault.azure.net/"
-linkedService,LS_BlobSqlPlayer,typeProperties.connectionString,"DefaultEndpointsProtocol=https;AccountName=blobstorageuat;EndpointSuffix=core.windows.net;"
-pipeline,PL_CopyMovies,activities[0].outputs[0].parameters.BlobContainer,UAT
-pipeline,PL_CopyMovies_with_param,parameters.DstBlobContainer.defaultValue,UAT
+linkedservices,AzureDataLakeStorage_linked_service,typeProperties.url,"https://dlsaimlprod.dfs.core.windows.net/"
