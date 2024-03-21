@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "aimltest-adf"
 		},
+		"AzureDataLakeStorage_linked_service_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage_linked_service'"
+		},
+		"AzureDataLakeStorage_linked_service_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://dlsaimltest.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureDataLakeStorage_linked_service_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage_linked_service_accountKey')]"
+					},
+					"AzureDataLakeStorage_linked_service_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage_linked_service_properties_typeProperties_url')]"
 					}
 				}
 			},

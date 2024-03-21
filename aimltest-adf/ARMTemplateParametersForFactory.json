@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "aimltest-adf"
+		},
+		"AzureDataLakeStorage_linked_service_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_linked_service_properties_typeProperties_url": {
+			"value": "https://dlsaimltest.dfs.core.windows.net/"
 		}
 	}
 }
