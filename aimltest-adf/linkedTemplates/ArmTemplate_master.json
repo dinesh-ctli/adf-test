@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "https://dlsaimltest.dfs.core.windows.net/"
 		},
+		"AzureKeyVault_dinesh_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://kv-mlflow-dev1.vault.azure.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +51,9 @@
 					},
 					"AzureDataLakeStorage_linked_service_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage_linked_service_properties_typeProperties_url')]"
+					},
+					"AzureKeyVault_dinesh_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault_dinesh_properties_typeProperties_baseUrl')]"
 					}
 				}
 			},

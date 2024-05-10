@@ -14,6 +14,10 @@
 		"AzureDataLakeStorage_linked_service_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://dlsaimltest.dfs.core.windows.net/"
+		},
+		"AzureKeyVault_dinesh_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://kv-mlflow-dev1.vault.azure.net/"
 		}
 	},
 	"variables": {
@@ -81,6 +85,19 @@
 						"type": "SecureString",
 						"value": "[parameters('AzureDataLakeStorage_linked_service_accountKey')]"
 					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/AzureKeyVault_dinesh')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureKeyVault",
+				"typeProperties": {
+					"baseUrl": "[parameters('AzureKeyVault_dinesh_properties_typeProperties_baseUrl')]"
 				}
 			},
 			"dependsOn": []

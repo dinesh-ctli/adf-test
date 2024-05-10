@@ -10,6 +10,9 @@
 		},
 		"AzureDataLakeStorage_linked_service_properties_typeProperties_url": {
 			"value": "https://dlsaimltest.dfs.core.windows.net/"
+		},
+		"AzureKeyVault_dinesh_properties_typeProperties_baseUrl": {
+			"value": "https://kv-mlflow-dev1.vault.azure.net/"
 		}
 	}
 }
