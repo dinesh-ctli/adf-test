@@ -27,7 +27,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Dinesh123",
+						"name": "dinesh-test",
 						"type": "Wait",
 						"dependsOn": [],
 						"userProperties": [],
