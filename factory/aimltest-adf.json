@@ -1,0 +1,36 @@
+{
+	"name": "aimltest-adf",
+	"properties": {
+		"globalParameters": {
+			"environment": {
+				"type": "string",
+				"value": "dev"
+			},
+			"adftools_deployment_state": {
+				"type": "Object",
+				"value": {
+					"LastUpdate": "2024-03-04T19:44:07.6029348Z",
+					"Deployed": {
+						"trigger.Trigger-test-2": "C3080BCB86D702F38EF1C49013DF931E",
+						"pipeline.pipeline1": "908404BDF131963A03102B8E7CBBD252",
+						"trigger.trigger_test_dinesh": "4E954A09D561A734D7950355ACF0B1B1",
+						"dataset.Dinesh_Dataset_test": "B7CA01D86AC0E73D3DC80E8BD2C182C3",
+						"linkedService.AzureDataLakeStorage_linked_service": "80FAD9C5F92E123785067154E2E58C21",
+						"pipeline.dinesh-test": "93DB815B27CC08863C033D7FD499FB97"
+					},
+					"adftoolsVer": "1.8.000",
+					"Algorithm": "MD5"
+				}
+			}
+		},
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false"
+		}
+	},
+	"location": "northcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7eca973d-e54c-45e7-89bd-5ff4281639f6",
+		"tenantId": "72b17115-9915-42c0-9f1b-4f98e5a4bcd2"
+	}
+}

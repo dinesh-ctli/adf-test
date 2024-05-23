@@ -1,0 +1,19 @@
+{
+	"name": "dinesh-test",
+	"properties": {
+		"activities": [
+			{
+				"name": "test123456",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-05-13T13:16:58Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
